@@ -34,6 +34,7 @@ rand = { version = "0.9.1", optional = true }
 getrandom = { version = "0.3.3", optional = true }
 reactive_graph = { workspace = true, features = ["serde"] }
 rustc-hash = { workspace = true, default-features = true }
+reactive_stores = { workspace = true }
 tachys = { workspace = true, features = [
   "reactive_graph",
   "reactive_stores",

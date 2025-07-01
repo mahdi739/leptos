@@ -1769,6 +1769,7 @@ dependencies = [
  "paste",
  "rand",
  "reactive_graph",
+ "reactive_stores",
  "rustc-hash 2.1.1",
  "rustc_version",
  "send_wrapper",
@@ -3519,7 +3520,7 @@ dependencies = [
 
 [[package]]
 name = "tachys"
-version = "0.2.2"
+version = "0.2.3"
 dependencies = [
  "any_spawner",
  "async-trait",
